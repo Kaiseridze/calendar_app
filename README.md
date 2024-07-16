@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# This is a Calendar application with the ability to add tasks. Basic functionality.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Display the days of the month
+2. Month displays
+3. Year displays.
+4. Add tasks
+5. Remove tasks
+6. Check tasks
+7. Edit tasks
 
-Currently, two official plugins are available:
+The ability to switch between them is also implemented, which means that in calendar mode we can use the left or right arrows to switch the month.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Clicking on the current date will take you to months mode and allow you to switch between years. 
 
-## Expanding the ESLint configuration
+By clicking again, you can switch between decades.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+In the tab with the days of the calendar month, when you click on the number, a modal window appears in which you can add, delete, change the status and edit tasks. When switching to any other date, these tasks are saved
