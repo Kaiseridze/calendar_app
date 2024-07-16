@@ -1,0 +1,10 @@
+.title__holder > .title {
+    margin-right: 15px;
+}
+.title__holder > .checkbox {
+    cursor: pointer;
+}
+.title__holder{
+    display: flex;
+    align-items: center;
+}
