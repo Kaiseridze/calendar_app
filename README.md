@@ -35,5 +35,5 @@ npm run dev
 You can also pull this public docker repository link and start:
 ```
 docker pull kaiseridze/airnet_test:demo
-docker run airnet_test_image
+docker run kaiseridze/airnet_test:demo
 ```
